@@ -24,3 +24,5 @@ jobs:
         run: python ingestion/load_to_duckdb.py
       - name: Run tests
         run: pytest tests/test_schema.py -v --tb=short
+      - name: Run attribution model
+        run: python processing/attribution_model.py

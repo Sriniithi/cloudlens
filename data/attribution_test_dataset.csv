@@ -1,0 +1,11 @@
+resource_type,resource_group,team_tag,mac_id,meter_category,expected_team,expected_category,expected_confidence
+Microsoft.Compute/virtualMachines,rg-mac-01-devops-prod,team:DevOps,MAC-01,Compute,DevOps,Compute,high
+Microsoft.Storage/storageAccounts,rg-mac-02-dataengineering-prod,team:DataEngineering,MAC-02,Storage,DataEngineering,Storage,high
+Microsoft.Sql/servers/databases,rg-mac-07-ml-prod,team:ML,MAC-07,Data Services,ML,Data Services,high
+Microsoft.Network/loadBalancers,rg-mac-03-product-prod,team:Product,MAC-03,Networking,Product,Networking,high
+Microsoft.Compute/virtualMachines,rg-mac-01-devops-prod,,MAC-01,Compute,DevOps,Compute,medium
+Microsoft.Storage/storageAccounts,rg-mac-06-infrastructure-prod,,MAC-06,Storage,Infrastructure,Storage,medium
+Microsoft.Sql/servers/databases,rg-mac-02-analytics-prod,,MAC-02,Data Services,Analytics,Data Services,medium
+Microsoft.Network/virtualNetworks,rg-mac-04-backend-prod,,MAC-04,Networking,Backend,Networking,medium
+Microsoft.Compute/virtualMachines,rg-mac-01-devops-prod,,MAC-01,Compute,DevOps,Compute,low
+Microsoft.Storage/storageAccounts,rg-mac-05-security-prod,,MAC-05,Storage,Security,Storage,low
