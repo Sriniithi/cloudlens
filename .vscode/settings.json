@@ -1,0 +1,18 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "DuckDB",
+            "accessMode": "Read Only",
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "databaseFilePath": "/home/srinithimohan/cloudlens-ai/data/cloudlens.db"
+        }
+    ],
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer",
+        "*.xlsx": "duckdb.dataFileViewer"
+    }
+}
