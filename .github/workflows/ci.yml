@@ -24,3 +24,9 @@ jobs:
         run: python ingestion/load_to_duckdb.py
       - name: Run tests
         run: pytest tests/test_schema.py -v --tb=short
+      - name: Copy raw as clean for CI
+        run: cp data/azure_billing_raw.csv data/azure_billing_clean.csv
+      - name: Setup DuckDB schema
+        run: python processing/load_cleaned_data.py
+      - name: Run all tests
+        run: pytest tests/ -v --tb=short
