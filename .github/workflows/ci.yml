@@ -1,3 +1,33 @@
+# name: CloudLens AI CI Pipeline
+
+# on:
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
+
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
+#       - name: Set up Python 3.11
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: '3.11'
+#       - name: Install dependencies
+#         run: pip install -r requirements.txt
+#       - name: Generate synthetic data
+#         run: python ingestion/generate_data.py
+#       - name: Load into DuckDB
+#         run: python ingestion/load_to_duckdb.py
+#       - name: Run tests
+#         run: pytest tests/test_schema.py -v --tb=short
+#       - name: Run attribution model
+#         run: python processing/attribution_model.py
+
+
 name: CloudLens AI CI Pipeline
 
 on:
@@ -22,7 +52,15 @@ jobs:
         run: python ingestion/generate_data.py
       - name: Load into DuckDB
         run: python ingestion/load_to_duckdb.py
-      - name: Run tests
-        run: pytest tests/test_schema.py -v --tb=short
+      - name: Copy raw as clean for CI
+        run: cp data/azure_billing_raw.csv data/azure_billing_clean.csv
+      - name: Setup DuckDB schema
+        run: python processing/load_cleaned_data.py
       - name: Run attribution model
         run: python processing/attribution_model.py
+      - name: Run all tests
+        run: pytest tests/ -v --tb=short
+      - name: Check coverage
+        run: |
+          pip install pytest-cov
+          pytest tests/ --cov=ingestion --cov=processing --cov-report=term-missing
