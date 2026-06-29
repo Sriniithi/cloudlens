@@ -155,7 +155,7 @@ def get_reservation_recommendations(
         WHERE category = 'Compute'
         GROUP BY mac_id, attributed_team,
                  resource_type, resource_group
-        HAVING COUNT(*) >= 60 AND AVG(cost_inr) > 500
+        HAVING COUNT(*) >= 30 AND AVG(cost_inr) > 500
         ORDER BY projected_annual DESC
         LIMIT 5
     """).df()

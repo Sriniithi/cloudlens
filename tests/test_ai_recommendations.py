@@ -76,9 +76,14 @@ def test_three_patterns_in_db():
     patterns = conn.execute("""
         SELECT DISTINCT pattern FROM ai_recommendations
     """).df()['pattern'].tolist()
+    count = conn.execute("""
+        SELECT COUNT(DISTINCT pattern) FROM ai_recommendations
+    """).fetchone()[0]
     conn.close()
+    # All 3 patterns must be present
+    assert count >= 3, f"Expected 3 patterns, got {count}: {patterns}"
     for p in ["right-sizing", "idle-cleanup", "reservation"]:
-        assert p in patterns
+        assert p in patterns, f"Missing pattern: {p}"
 
 
 def test_savings_positive():
