@@ -58,6 +58,10 @@ jobs:
         run: python processing/load_cleaned_data.py
       - name: Run attribution model
         run: python processing/attribution_model.py
+      - name: Run AI optimization engine
+        run: python ai_engine/gemini_engine.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Run all tests
         run: pytest tests/ -v --tb=short
       - name: Check coverage
