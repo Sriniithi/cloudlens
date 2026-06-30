@@ -1,0 +1,321 @@
+usage_date,subscription_id,mac_id,resource_group,resource_type,service_name,meter_category,team_tag,cost_inr,currency,quantity,unit_of_measure
+2026-01-01,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:DevOps,1353.43,INR,11.72,1 Hour
+2026-01-01,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:DevOps,308.85,INR,89.78,1 Hour
+2026-01-01,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:DevOps,201.2,INR,76.84,1 Hour
+2026-01-01,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:DevOps,447.58,INR,26.85,1 Hour
+2026-01-01,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,,1070.05,INR,95.36,1 Hour
+2026-01-01,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Platform,268.67,INR,31.27,1 Hour
+2026-01-01,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Platform,273.47,INR,78.85,1 Hour
+2026-01-01,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Platform,328.6,INR,63.87,1 Hour
+2026-01-01,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,,975.37,INR,85.21,1 Hour
+2026-01-01,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:DataEngineering,610.17,INR,80.6,1 Hour
+2026-01-01,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:DataEngineering,200.44,INR,30.59,1 Hour
+2026-01-01,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:DataEngineering,942.5,INR,22.27,1 Hour
+2026-01-01,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Analytics,901.43,INR,65.58,1 Hour
+2026-01-01,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Analytics,566.41,INR,5.43,1 Hour
+2026-01-01,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Analytics,154.29,INR,48.3,1 Hour
+2026-01-01,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,,736.46,INR,64.61,1 Hour
+2026-01-01,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Product,535.18,INR,75.67,1 Hour
+2026-01-01,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Product,217.76,INR,82.7,1 Hour
+2026-01-01,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Product,121.26,INR,2.27,1 Hour
+2026-01-01,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Product,316.42,INR,34.75,1 Hour
+2026-01-01,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,,470.14,INR,46.64,1 Hour
+2026-01-01,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Frontend,142.99,INR,50.57,1 Hour
+2026-01-01,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Frontend,92.76,INR,32.58,1 Hour
+2026-01-01,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Frontend,180.56,INR,12.43,1 Hour
+2026-01-01,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Backend,959.95,INR,51.9,1 Hour
+2026-01-01,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Backend,318.66,INR,84.25,1 Hour
+2026-01-01,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Backend,198.27,INR,27.48,1 Hour
+2026-01-01,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Backend,541.1,INR,18.14,1 Hour
+2026-01-01,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:QA,438.64,INR,45.74,1 Hour
+2026-01-01,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:QA,171.48,INR,48.55,1 Hour
+2026-01-01,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:QA,81.22,INR,46.37,1 Hour
+2026-01-01,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:QA,237.72,INR,10.02,1 Hour
+2026-01-01,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Security,690.22,INR,70.93,1 Hour
+2026-01-01,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,,226.31,INR,82.53,1 Hour
+2026-01-01,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Security,330.44,INR,78.63,1 Hour
+2026-01-01,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Security,393.61,INR,20.72,1 Hour
+2026-01-01,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Compliance,338.53,INR,76.25,1 Hour
+2026-01-01,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Compliance,251.32,INR,73.79,1 Hour
+2026-01-01,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Compliance,148.47,INR,36.79,1 Hour
+2026-01-01,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Compliance,281.64,INR,69.84,1 Hour
+2026-01-01,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,,1554.09,INR,62.31,1 Hour
+2026-01-01,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,,435.62,INR,34.25,1 Hour
+2026-01-01,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Infrastructure,337.11,INR,73.15,1 Hour
+2026-01-01,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,,466.71,INR,99.71,1 Hour
+2026-01-01,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:CloudOps,1439.91,INR,19.46,1 Hour
+2026-01-01,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:CloudOps,400.14,INR,41.18,1 Hour
+2026-01-01,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:CloudOps,280.93,INR,76.38,1 Hour
+2026-01-01,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,,348.07,INR,53.84,1 Hour
+2026-01-01,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:ML,1660.29,INR,58.74,1 Hour
+2026-01-01,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:ML,454.9,INR,14.04,1 Hour
+2026-01-01,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:ML,177.09,INR,11.25,1 Hour
+2026-01-01,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:ML,692.54,INR,91.26,1 Hour
+2026-01-01,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Research,707.59,INR,28.14,1 Hour
+2026-01-01,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Research,451.44,INR,63.52,1 Hour
+2026-01-01,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Research,186.48,INR,43.54,1 Hour
+2026-01-01,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Research,697.84,INR,57.05,1 Hour
+2026-01-01,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Finance,278.94,INR,15.48,1 Hour
+2026-01-01,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Finance,187.95,INR,19.51,1 Hour
+2026-01-01,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Finance,95.23,INR,53.6,1 Hour
+2026-01-01,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Finance,515.31,INR,75.6,1 Hour
+2026-01-01,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Operations,390.34,INR,21.37,1 Hour
+2026-01-01,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Operations,262.47,INR,86.42,1 Hour
+2026-01-01,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Operations,138.84,INR,1.65,1 Hour
+2026-01-01,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Operations,349.4,INR,2.77,1 Hour
+2026-01-02,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:DevOps,1323.03,INR,43.79,1 Hour
+2026-01-02,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,,292.64,INR,78.94,1 Hour
+2026-01-02,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:DevOps,218.27,INR,68.94,1 Hour
+2026-01-02,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:DevOps,414.98,INR,87.74,1 Hour
+2026-01-02,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Platform,988.12,INR,58.07,1 Hour
+2026-01-02,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,,252.91,INR,81.08,1 Hour
+2026-01-02,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Platform,219.62,INR,75.69,1 Hour
+2026-01-02,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Platform,392.75,INR,35.48,1 Hour
+2026-01-02,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:DataEngineering,854.02,INR,7.65,1 Hour
+2026-01-02,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:DataEngineering,622.68,INR,22.16,1 Hour
+2026-01-02,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:DataEngineering,165.76,INR,1.54,1 Hour
+2026-01-02,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:DataEngineering,833.7,INR,66.66,1 Hour
+2026-01-02,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Analytics,812.51,INR,98.49,1 Hour
+2026-01-02,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Analytics,528.46,INR,44.62,1 Hour
+2026-01-02,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Analytics,163.28,INR,20.63,1 Hour
+2026-01-02,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Analytics,770.48,INR,90.39,1 Hour
+2026-01-02,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Product,546.38,INR,59.55,1 Hour
+2026-01-02,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Product,178.46,INR,73.68,1 Hour
+2026-01-02,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,,108.34,INR,30.39,1 Hour
+2026-01-02,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Product,294.74,INR,11.59,1 Hour
+2026-01-02,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Frontend,496.23,INR,47.31,1 Hour
+2026-01-02,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Frontend,134.95,INR,73.26,1 Hour
+2026-01-02,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Frontend,93.58,INR,24.58,1 Hour
+2026-01-02,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Frontend,219.9,INR,86.71,1 Hour
+2026-01-02,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Backend,873.27,INR,31.86,1 Hour
+2026-01-02,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Backend,357.52,INR,50.67,1 Hour
+2026-01-02,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Backend,188.06,INR,50.38,1 Hour
+2026-01-02,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Backend,531.08,INR,28.41,1 Hour
+2026-01-02,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:QA,401.21,INR,63.9,1 Hour
+2026-01-02,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:QA,202.36,INR,19.73,1 Hour
+2026-01-02,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:QA,87.29,INR,49.92,1 Hour
+2026-01-02,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:QA,236.59,INR,98.23,1 Hour
+2026-01-02,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Security,632.26,INR,62.95,1 Hour
+2026-01-02,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Security,236.37,INR,22.68,1 Hour
+2026-01-02,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Security,264.72,INR,94.06,1 Hour
+2026-01-02,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,,397.96,INR,47.21,1 Hour
+2026-01-02,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Compliance,309.49,INR,99.6,1 Hour
+2026-01-02,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,,191.52,INR,80.61,1 Hour
+2026-01-02,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Compliance,150.47,INR,62.63,1 Hour
+2026-01-02,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Compliance,273.36,INR,71.64,1 Hour
+2026-01-02,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Infrastructure,1383.6,INR,86.08,1 Hour
+2026-01-02,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Infrastructure,393.96,INR,84.94,1 Hour
+2026-01-02,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Infrastructure,338.58,INR,50.87,1 Hour
+2026-01-02,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Infrastructure,362.44,INR,61.83,1 Hour
+2026-01-02,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:CloudOps,1463.97,INR,9.61,1 Hour
+2026-01-02,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:CloudOps,386.66,INR,80.74,1 Hour
+2026-01-02,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:CloudOps,295.69,INR,41.41,1 Hour
+2026-01-02,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:CloudOps,368.55,INR,8.48,1 Hour
+2026-01-02,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:ML,1642.1,INR,23.25,1 Hour
+2026-01-02,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,,509.24,INR,2.07,1 Hour
+2026-01-02,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:ML,195.61,INR,56.49,1 Hour
+2026-01-02,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:ML,659.73,INR,49.76,1 Hour
+2026-01-02,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Research,896.22,INR,15.37,1 Hour
+2026-01-02,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Research,390.16,INR,99.98,1 Hour
+2026-01-02,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Research,156.63,INR,70.3,1 Hour
+2026-01-02,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Research,667.25,INR,77.39,1 Hour
+2026-01-02,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Finance,328.3,INR,93.52,1 Hour
+2026-01-02,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Finance,176.75,INR,40.56,1 Hour
+2026-01-02,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Finance,104.2,INR,18.06,1 Hour
+2026-01-02,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Finance,489.77,INR,81.92,1 Hour
+2026-01-02,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Operations,508.5,INR,62.86,1 Hour
+2026-01-02,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Operations,264.79,INR,87.51,1 Hour
+2026-01-02,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Operations,140.88,INR,76.34,1 Hour
+2026-01-02,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Operations,402.97,INR,15.78,1 Hour
+2026-01-03,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,,1091.38,INR,3.81,1 Hour
+2026-01-03,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:DevOps,308.84,INR,81.46,1 Hour
+2026-01-03,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:DevOps,190.86,INR,40.65,1 Hour
+2026-01-03,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,,412.32,INR,73.34,1 Hour
+2026-01-03,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Platform,1154.93,INR,3.23,1 Hour
+2026-01-03,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Platform,318.67,INR,91.09,1 Hour
+2026-01-03,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Platform,233.72,INR,82.0,1 Hour
+2026-01-03,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Platform,405.64,INR,10.93,1 Hour
+2026-01-03,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,,839.25,INR,14.56,1 Hour
+2026-01-03,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:DataEngineering,692.59,INR,26.31,1 Hour
+2026-01-03,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:DataEngineering,200.7,INR,86.06,1 Hour
+2026-01-03,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:DataEngineering,790.1,INR,7.58,1 Hour
+2026-01-03,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Analytics,869.11,INR,27.45,1 Hour
+2026-01-03,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Analytics,527.48,INR,38.85,1 Hour
+2026-01-03,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Analytics,138.54,INR,5.27,1 Hour
+2026-01-03,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Analytics,780.05,INR,33.83,1 Hour
+2026-01-03,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Product,628.12,INR,4.07,1 Hour
+2026-01-03,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,,182.03,INR,43.66,1 Hour
+2026-01-03,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Product,135.54,INR,97.49,1 Hour
+2026-01-03,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Product,287.52,INR,62.32,1 Hour
+2026-01-03,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Frontend,560.1,INR,64.72,1 Hour
+2026-01-03,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Frontend,150.48,INR,60.79,1 Hour
+2026-01-03,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Frontend,111.83,INR,56.75,1 Hour
+2026-01-03,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Frontend,223.41,INR,69.87,1 Hour
+2026-01-03,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Backend,1082.92,INR,29.36,1 Hour
+2026-01-03,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Backend,355.97,INR,36.0,1 Hour
+2026-01-03,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Backend,205.59,INR,9.46,1 Hour
+2026-01-03,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Backend,500.4,INR,59.1,1 Hour
+2026-01-03,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:QA,424.16,INR,26.1,1 Hour
+2026-01-03,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:QA,192.84,INR,37.88,1 Hour
+2026-01-03,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:QA,87.33,INR,66.54,1 Hour
+2026-01-03,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:QA,262.78,INR,73.73,1 Hour
+2026-01-03,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,,646.42,INR,65.0,1 Hour
+2026-01-03,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Security,226.09,INR,55.81,1 Hour
+2026-01-03,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Security,309.73,INR,73.05,1 Hour
+2026-01-03,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Security,302.68,INR,13.99,1 Hour
+2026-01-03,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Compliance,319.95,INR,39.32,1 Hour
+2026-01-03,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Compliance,207.83,INR,59.15,1 Hour
+2026-01-03,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Compliance,154.22,INR,38.3,1 Hour
+2026-01-03,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Compliance,269.91,INR,32.64,1 Hour
+2026-01-03,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Infrastructure,1607.77,INR,13.61,1 Hour
+2026-01-03,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Infrastructure,414.48,INR,80.95,1 Hour
+2026-01-03,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Infrastructure,392.85,INR,11.01,1 Hour
+2026-01-03,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Infrastructure,415.43,INR,58.63,1 Hour
+2026-01-03,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:CloudOps,1332.94,INR,18.78,1 Hour
+2026-01-03,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:CloudOps,338.0,INR,24.78,1 Hour
+2026-01-03,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,,341.09,INR,84.4,1 Hour
+2026-01-03,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:CloudOps,350.52,INR,56.84,1 Hour
+2026-01-03,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:ML,1684.32,INR,98.95,1 Hour
+2026-01-03,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:ML,528.43,INR,37.51,1 Hour
+2026-01-03,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:ML,198.26,INR,75.83,1 Hour
+2026-01-03,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:ML,721.08,INR,9.27,1 Hour
+2026-01-03,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Research,816.36,INR,30.4,1 Hour
+2026-01-03,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Research,469.86,INR,88.59,1 Hour
+2026-01-03,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,,193.16,INR,84.17,1 Hour
+2026-01-03,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Research,648.28,INR,95.94,1 Hour
+2026-01-03,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Finance,294.48,INR,30.95,1 Hour
+2026-01-03,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Finance,206.28,INR,43.57,1 Hour
+2026-01-03,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,,85.73,INR,15.36,1 Hour
+2026-01-03,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Finance,426.82,INR,17.42,1 Hour
+2026-01-03,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Operations,471.02,INR,21.5,1 Hour
+2026-01-03,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Operations,303.0,INR,88.81,1 Hour
+2026-01-03,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Operations,131.78,INR,96.24,1 Hour
+2026-01-03,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Operations,328.42,INR,82.31,1 Hour
+2026-01-04,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:DevOps,1186.55,INR,51.65,1 Hour
+2026-01-04,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,,325.53,INR,66.41,1 Hour
+2026-01-04,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:DevOps,224.48,INR,86.1,1 Hour
+2026-01-04,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:DevOps,394.8,INR,55.94,1 Hour
+2026-01-04,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Platform,1205.14,INR,21.43,1 Hour
+2026-01-04,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Platform,251.41,INR,12.5,1 Hour
+2026-01-04,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Platform,281.86,INR,66.64,1 Hour
+2026-01-04,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Platform,428.59,INR,4.0,1 Hour
+2026-01-04,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:DataEngineering,924.24,INR,46.09,1 Hour
+2026-01-04,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:DataEngineering,608.57,INR,52.23,1 Hour
+2026-01-04,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:DataEngineering,201.48,INR,7.12,1 Hour
+2026-01-04,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:DataEngineering,844.5,INR,90.1,1 Hour
+2026-01-04,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Analytics,835.87,INR,60.25,1 Hour
+2026-01-04,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Analytics,516.81,INR,67.65,1 Hour
+2026-01-04,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Analytics,160.95,INR,41.82,1 Hour
+2026-01-04,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Analytics,837.21,INR,24.8,1 Hour
+2026-01-04,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Product,640.15,INR,31.15,1 Hour
+2026-01-04,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Product,188.76,INR,40.73,1 Hour
+2026-01-04,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,,107.85,INR,5.52,1 Hour
+2026-01-04,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Product,302.65,INR,76.15,1 Hour
+2026-01-04,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Frontend,564.41,INR,70.19,1 Hour
+2026-01-04,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Frontend,147.47,INR,13.75,1 Hour
+2026-01-04,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Frontend,98.44,INR,74.96,1 Hour
+2026-01-04,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Frontend,207.43,INR,69.02,1 Hour
+2026-01-04,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Backend,832.33,INR,18.52,1 Hour
+2026-01-04,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Backend,318.65,INR,98.16,1 Hour
+2026-01-04,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Backend,189.37,INR,14.38,1 Hour
+2026-01-04,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Backend,461.23,INR,24.44,1 Hour
+2026-01-04,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:QA,403.77,INR,1.67,1 Hour
+2026-01-04,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:QA,201.78,INR,71.15,1 Hour
+2026-01-04,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:QA,95.78,INR,59.21,1 Hour
+2026-01-04,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:QA,241.33,INR,62.7,1 Hour
+2026-01-04,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Security,719.24,INR,31.67,1 Hour
+2026-01-04,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Security,265.71,INR,75.78,1 Hour
+2026-01-04,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Security,281.93,INR,28.72,1 Hour
+2026-01-04,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,,335.51,INR,40.7,1 Hour
+2026-01-04,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Compliance,316.38,INR,64.43,1 Hour
+2026-01-04,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Compliance,191.58,INR,93.99,1 Hour
+2026-01-04,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Compliance,139.8,INR,33.34,1 Hour
+2026-01-04,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Compliance,277.96,INR,14.3,1 Hour
+2026-01-04,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Infrastructure,1219.15,INR,32.18,1 Hour
+2026-01-04,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Infrastructure,390.01,INR,50.43,1 Hour
+2026-01-04,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Infrastructure,361.93,INR,20.44,1 Hour
+2026-01-04,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Infrastructure,422.35,INR,74.55,1 Hour
+2026-01-04,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:CloudOps,1341.63,INR,60.21,1 Hour
+2026-01-04,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:CloudOps,386.79,INR,87.4,1 Hour
+2026-01-04,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:CloudOps,325.9,INR,37.33,1 Hour
+2026-01-04,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:CloudOps,368.4,INR,17.99,1 Hour
+2026-01-04,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:ML,7576.56,INR,13.62,1 Hour
+2026-01-04,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:ML,486.38,INR,77.6,1 Hour
+2026-01-04,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:ML,215.16,INR,9.81,1 Hour
+2026-01-04,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:ML,599.62,INR,14.6,1 Hour
+2026-01-04,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Research,890.44,INR,97.26,1 Hour
+2026-01-04,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Research,427.62,INR,47.78,1 Hour
+2026-01-04,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Research,172.87,INR,49.27,1 Hour
+2026-01-04,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Research,664.03,INR,66.98,1 Hour
+2026-01-04,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,,295.9,INR,33.12,1 Hour
+2026-01-04,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Finance,205.91,INR,70.12,1 Hour
+2026-01-04,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Finance,88.96,INR,55.58,1 Hour
+2026-01-04,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Finance,392.83,INR,82.64,1 Hour
+2026-01-04,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Operations,467.87,INR,40.42,1 Hour
+2026-01-04,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Operations,307.37,INR,18.48,1 Hour
+2026-01-04,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Operations,143.9,INR,91.89,1 Hour
+2026-01-04,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Operations,435.27,INR,73.63,1 Hour
+2026-01-05,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:DevOps,1377.32,INR,56.53,1 Hour
+2026-01-05,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:DevOps,342.18,INR,60.66,1 Hour
+2026-01-05,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:DevOps,184.75,INR,55.27,1 Hour
+2026-01-05,sub-psiog-001,MAC-01,rg-mac-01-devops-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:DevOps,413.13,INR,6.65,1 Hour
+2026-01-05,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,,1070.7,INR,62.35,1 Hour
+2026-01-05,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Platform,263.8,INR,85.54,1 Hour
+2026-01-05,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,,245.67,INR,20.13,1 Hour
+2026-01-05,sub-psiog-001,MAC-01,rg-mac-01-platform-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Platform,409.39,INR,90.13,1 Hour
+2026-01-05,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:DataEngineering,896.98,INR,47.02,1 Hour
+2026-01-05,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:DataEngineering,573.71,INR,1.32,1 Hour
+2026-01-05,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:DataEngineering,163.17,INR,42.77,1 Hour
+2026-01-05,sub-psiog-001,MAC-02,rg-mac-02-dataengineering-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:DataEngineering,1031.77,INR,61.95,1 Hour
+2026-01-05,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Analytics,777.13,INR,83.37,1 Hour
+2026-01-05,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Analytics,541.04,INR,78.74,1 Hour
+2026-01-05,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Analytics,139.67,INR,89.75,1 Hour
+2026-01-05,sub-psiog-001,MAC-02,rg-mac-02-analytics-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Analytics,832.08,INR,62.84,1 Hour
+2026-01-05,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,,624.96,INR,33.75,1 Hour
+2026-01-05,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Product,200.22,INR,93.33,1 Hour
+2026-01-05,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Product,132.72,INR,11.17,1 Hour
+2026-01-05,sub-psiog-001,MAC-03,rg-mac-03-product-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Product,309.08,INR,13.8,1 Hour
+2026-01-05,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Frontend,453.67,INR,39.19,1 Hour
+2026-01-05,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Frontend,157.3,INR,7.28,1 Hour
+2026-01-05,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Frontend,97.42,INR,65.93,1 Hour
+2026-01-05,sub-psiog-001,MAC-03,rg-mac-03-frontend-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Frontend,205.63,INR,35.18,1 Hour
+2026-01-05,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Backend,895.58,INR,82.48,1 Hour
+2026-01-05,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,,401.8,INR,50.54,1 Hour
+2026-01-05,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Backend,234.23,INR,14.99,1 Hour
+2026-01-05,sub-psiog-001,MAC-04,rg-mac-04-backend-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,,536.69,INR,10.72,1 Hour
+2026-01-05,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:QA,346.39,INR,86.6,1 Hour
+2026-01-05,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:QA,189.2,INR,71.95,1 Hour
+2026-01-05,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:QA,95.9,INR,26.91,1 Hour
+2026-01-05,sub-psiog-001,MAC-04,rg-mac-04-qa-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:QA,287.74,INR,63.16,1 Hour
+2026-01-05,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Security,632.48,INR,59.82,1 Hour
+2026-01-05,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Security,217.14,INR,74.06,1 Hour
+2026-01-05,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,,345.47,INR,1.5,1 Hour
+2026-01-05,sub-psiog-001,MAC-05,rg-mac-05-security-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Security,398.25,INR,83.98,1 Hour
+2026-01-05,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Compliance,306.84,INR,9.43,1 Hour
+2026-01-05,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Compliance,223.68,INR,64.95,1 Hour
+2026-01-05,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Compliance,138.56,INR,81.21,1 Hour
+2026-01-05,sub-psiog-001,MAC-05,rg-mac-05-compliance-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Compliance,341.08,INR,65.84,1 Hour
+2026-01-05,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Infrastructure,1316.69,INR,35.5,1 Hour
+2026-01-05,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:Infrastructure,441.7,INR,99.3,1 Hour
+2026-01-05,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Infrastructure,347.9,INR,89.67,1 Hour
+2026-01-05,sub-psiog-001,MAC-06,rg-mac-06-infrastructure-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Infrastructure,404.68,INR,83.01,1 Hour
+2026-01-05,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:CloudOps,1309.63,INR,19.37,1 Hour
+2026-01-05,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:CloudOps,386.08,INR,87.44,1 Hour
+2026-01-05,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:CloudOps,286.86,INR,17.92,1 Hour
+2026-01-05,sub-psiog-001,MAC-06,rg-mac-06-cloudops-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:CloudOps,400.84,INR,38.68,1 Hour
+2026-01-05,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:ML,1553.1,INR,10.85,1 Hour
+2026-01-05,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,team:ML,538.96,INR,90.15,1 Hour
+2026-01-05,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:ML,183.99,INR,62.58,1 Hour
+2026-01-05,sub-psiog-001,MAC-07,rg-mac-07-ml-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,,722.33,INR,18.77,1 Hour
+2026-01-05,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Compute/virtualMachines,Virtual Machines,Compute,team:Research,849.99,INR,45.96,1 Hour
+2026-01-05,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Research,428.73,INR,92.22,1 Hour
+2026-01-05,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,team:Research,180.42,INR,68.48,1 Hour
+2026-01-05,sub-psiog-001,MAC-07,rg-mac-07-research-prod,Microsoft.Sql/servers/databases,SQL Database,Data Services,team:Research,707.43,INR,42.48,1 Hour
+2026-01-05,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Finance,303.34,INR,57.38,1 Hour
+2026-01-05,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Storage/storageAccounts/fileServices,File Storage,Storage,team:Finance,188.65,INR,23.33,1 Hour
+2026-01-05,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.Network/loadBalancers,Load Balancers,Networking,team:Finance,108.08,INR,95.44,1 Hour
+2026-01-05,sub-psiog-001,MAC-08,rg-mac-08-finance-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Finance,411.65,INR,3.03,1 Hour
+2026-01-05,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.ContainerService/managedClusters,AKS Clusters,Compute,team:Operations,454.28,INR,2.25,1 Hour
+2026-01-05,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Storage/storageAccounts,Blob Storage,Storage,,258.03,INR,21.32,1 Hour
+2026-01-05,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.Network/virtualNetworks,Virtual Networks,Networking,,140.28,INR,48.27,1 Hour
+2026-01-05,sub-psiog-001,MAC-08,rg-mac-08-operations-prod,Microsoft.DocumentDB/databaseAccounts,Cosmos DB,Data Services,team:Operations,434.45,INR,68.94,1 Hour

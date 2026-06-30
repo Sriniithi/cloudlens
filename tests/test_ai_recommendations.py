@@ -17,7 +17,7 @@ DB_PATH = "data/cloudlens.db"
 
 def test_gemini_returns_response():
     response = get_ai_response(
-        "Say hello in one word.", mode="gemini")
+        "Say hello in one word.", mode="ollama")
     # Accept either a valid response OR a rate limit error
     # Rate limit (429) is an API quota issue, not a code bug
     assert isinstance(response, str)
@@ -31,13 +31,13 @@ def test_gemini_returns_response():
 
 def test_rightsizing_returns_list():
     result = get_rightsizing_recommendations(
-        DB_PATH, mode="gemini")
+        DB_PATH, mode="ollama")
     assert isinstance(result, list)
 
 
 def test_rightsizing_pattern_name():
     result = get_rightsizing_recommendations(
-        DB_PATH, mode="gemini")
+        DB_PATH, mode="ollama")
     if result:
         assert result[0]["pattern"] == "right-sizing"
         assert result[0]["estimated_savings_inr"] > 0
@@ -45,26 +45,26 @@ def test_rightsizing_pattern_name():
 
 def test_idle_returns_list():
     result = get_idle_resource_recommendations(
-        DB_PATH, mode="gemini")
+        DB_PATH, mode="ollama")
     assert isinstance(result, list)
 
 
 def test_idle_pattern_name():
     result = get_idle_resource_recommendations(
-        DB_PATH, mode="gemini")
+        DB_PATH, mode="ollama")
     if result:
         assert result[0]["pattern"] == "idle-cleanup"
 
 
 def test_reservation_returns_list():
     result = get_reservation_recommendations(
-        DB_PATH, mode="gemini")
+        DB_PATH, mode="ollama")
     assert isinstance(result, list)
 
 
 def test_reservation_pattern_name():
     result = get_reservation_recommendations(
-        DB_PATH, mode="gemini")
+        DB_PATH, mode="ollama")
     if result:
         assert result[0]["pattern"] == "reservation"
 
