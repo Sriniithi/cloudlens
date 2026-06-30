@@ -75,6 +75,14 @@ jobs:
         run: python processing/load_cleaned_data.py
       - name: Run attribution model
         run: python processing/attribution_model.py
+      - name: Install Ollama
+        run: curl -fsSL https://ollama.com/install.sh | sh
+      - name: Pull Llama model
+        run: ollama pull llama3.2:1b &
+      - name: Start Ollama server
+        run: ollama serve &
+      - name: Wait for Ollama to be ready
+        run: sleep 10
       - name: Run AI optimization engine
         run: python ai_engine/gemini_engine.py
         env:
