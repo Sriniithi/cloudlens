@@ -1,0 +1,193 @@
+month,mac_id,team,resource_category,total_cost_inr
+2026-01,MAC-01,DevOps,Compute,37866.49
+2026-01,MAC-01,DevOps,Networking,6533.11
+2026-01,MAC-01,DevOps,Storage,9480.49
+2026-01,MAC-01,DevOps,Data Services,13001.91
+2026-01,MAC-01,Platform,Networking,7787.19
+2026-01,MAC-01,Platform,Compute,35078.58
+2026-01,MAC-01,Platform,Data Services,12537.31
+2026-01,MAC-01,Platform,Storage,8866.89
+2026-01,MAC-02,Analytics,Storage,17547.69
+2026-01,MAC-02,Analytics,Compute,26898.78
+2026-01,MAC-02,Analytics,Data Services,27230.52
+2026-01,MAC-02,Analytics,Networking,5125.02
+2026-01,MAC-02,DataEngineering,Storage,18876.84
+2026-01,MAC-02,DataEngineering,Compute,28114.94
+2026-01,MAC-02,DataEngineering,Networking,5791.6
+2026-01,MAC-02,DataEngineering,Data Services,27656.84
+2026-01,MAC-03,Frontend,Storage,4803.07
+2026-01,MAC-03,Frontend,Data Services,6313.34
+2026-01,MAC-03,Frontend,Networking,3354.82
+2026-01,MAC-03,Frontend,Compute,15506.21
+2026-01,MAC-03,Product,Data Services,9596.63
+2026-01,MAC-03,Product,Storage,6398.1
+2026-01,MAC-03,Product,Networking,3887.71
+2026-01,MAC-03,Product,Compute,18773.24
+2026-01,MAC-04,Backend,Storage,11374.53
+2026-01,MAC-04,Backend,Compute,30112.31
+2026-01,MAC-04,Backend,Networking,7094.5
+2026-01,MAC-04,Backend,Data Services,15985.51
+2026-01,MAC-04,QA,Storage,5717.88
+2026-01,MAC-04,QA,Compute,12625.8
+2026-01,MAC-04,QA,Data Services,8054.78
+2026-01,MAC-04,QA,Networking,2848.98
+2026-01,MAC-05,Compliance,Data Services,9631.25
+2026-01,MAC-05,Compliance,Compute,11290.55
+2026-01,MAC-05,Compliance,Storage,7018.68
+2026-01,MAC-05,Compliance,Networking,4847.57
+2026-01,MAC-05,Security,Data Services,11385.77
+2026-01,MAC-05,Security,Compute,22397.95
+2026-01,MAC-05,Security,Networking,9520.38
+2026-01,MAC-05,Security,Storage,8097.72
+2026-01,MAC-06,CloudOps,Data Services,12718.53
+2026-01,MAC-06,CloudOps,Storage,12325.14
+2026-01,MAC-06,CloudOps,Networking,10254.56
+2026-01,MAC-06,CloudOps,Compute,40380.07
+2026-01,MAC-06,Infrastructure,Storage,12682.66
+2026-01,MAC-06,Infrastructure,Data Services,13405.31
+2026-01,MAC-06,Infrastructure,Networking,11207.75
+2026-01,MAC-06,Infrastructure,Compute,44157.71
+2026-01,MAC-07,ML,Compute,50404.81
+2026-01,MAC-07,ML,Storage,16219.32
+2026-01,MAC-07,ML,Data Services,21938.35
+2026-01,MAC-07,ML,Networking,6456.05
+2026-01,MAC-07,Research,Compute,25247.2
+2026-01,MAC-07,Research,Networking,5831.86
+2026-01,MAC-07,Research,Storage,14207.12
+2026-01,MAC-07,Research,Data Services,20906.01
+2026-01,MAC-08,Finance,Compute,9327.23
+2026-01,MAC-08,Finance,Networking,3203.21
+2026-01,MAC-08,Finance,Storage,6342.86
+2026-01,MAC-08,Finance,Data Services,14258.57
+2026-01,MAC-08,Operations,Networking,4094.94
+2026-01,MAC-08,Operations,Data Services,12079.66
+2026-01,MAC-08,Operations,Storage,9509.98
+2026-01,MAC-08,Operations,Compute,14611.86
+2026-02,MAC-01,DevOps,Data Services,12231.45
+2026-02,MAC-01,DevOps,Compute,36701.71
+2026-02,MAC-01,DevOps,Storage,8926.93
+2026-02,MAC-01,DevOps,Networking,6175.79
+2026-02,MAC-01,Platform,Storage,8631.72
+2026-02,MAC-01,Platform,Data Services,11504.3
+2026-02,MAC-01,Platform,Networking,7656.84
+2026-02,MAC-01,Platform,Compute,33586.84
+2026-02,MAC-02,Analytics,Compute,25678.63
+2026-02,MAC-02,Analytics,Data Services,25637.65
+2026-02,MAC-02,Analytics,Storage,16567.21
+2026-02,MAC-02,Analytics,Networking,4791.1
+2026-02,MAC-02,DataEngineering,Networking,5506.93
+2026-02,MAC-02,DataEngineering,Compute,28276.62
+2026-02,MAC-02,DataEngineering,Data Services,27702.57
+2026-02,MAC-02,DataEngineering,Storage,18252.26
+2026-02,MAC-03,Frontend,Compute,15203.71
+2026-02,MAC-03,Frontend,Storage,4523.95
+2026-02,MAC-03,Frontend,Networking,3028.91
+2026-02,MAC-03,Frontend,Data Services,6109.38
+2026-02,MAC-03,Product,Storage,5997.48
+2026-02,MAC-03,Product,Networking,3692.24
+2026-02,MAC-03,Product,Compute,18225.44
+2026-02,MAC-03,Product,Data Services,9102.42
+2026-02,MAC-04,Backend,Networking,6659.14
+2026-02,MAC-04,Backend,Data Services,15181.14
+2026-02,MAC-04,Backend,Storage,10592.8
+2026-02,MAC-04,Backend,Compute,29175.8
+2026-02,MAC-04,QA,Networking,2718.01
+2026-02,MAC-04,QA,Storage,5419.37
+2026-02,MAC-04,QA,Data Services,7655.58
+2026-02,MAC-04,QA,Compute,12363.76
+2026-02,MAC-05,Compliance,Storage,6633.17
+2026-02,MAC-05,Compliance,Data Services,9040.54
+2026-02,MAC-05,Compliance,Networking,4516.79
+2026-02,MAC-05,Compliance,Compute,10796.31
+2026-02,MAC-05,Security,Storage,7672.35
+2026-02,MAC-05,Security,Data Services,10882.42
+2026-02,MAC-05,Security,Networking,9346.89
+2026-02,MAC-05,Security,Compute,21444.42
+2026-02,MAC-06,CloudOps,Compute,39830.59
+2026-02,MAC-06,CloudOps,Storage,11486.96
+2026-02,MAC-06,CloudOps,Data Services,12575.42
+2026-02,MAC-06,CloudOps,Networking,9764.61
+2026-02,MAC-06,Infrastructure,Networking,10766.27
+2026-02,MAC-06,Infrastructure,Storage,12076.81
+2026-02,MAC-06,Infrastructure,Data Services,12895.34
+2026-02,MAC-06,Infrastructure,Compute,42818.04
+2026-02,MAC-07,ML,Compute,49140.18
+2026-02,MAC-07,ML,Storage,15070.53
+2026-02,MAC-07,ML,Networking,5979.41
+2026-02,MAC-07,ML,Data Services,21058.01
+2026-02,MAC-07,Research,Data Services,19175.55
+2026-02,MAC-07,Research,Compute,24192.63
+2026-02,MAC-07,Research,Networking,5408.35
+2026-02,MAC-07,Research,Storage,13705.07
+2026-02,MAC-08,Finance,Data Services,13960.25
+2026-02,MAC-08,Finance,Compute,9378.99
+2026-02,MAC-08,Finance,Networking,2974.04
+2026-02,MAC-08,Finance,Storage,5982.09
+2026-02,MAC-08,Operations,Networking,4005.13
+2026-02,MAC-08,Operations,Data Services,11441.95
+2026-02,MAC-08,Operations,Storage,8944.53
+2026-02,MAC-08,Operations,Compute,13508.88
+2026-03,MAC-01,DevOps,Storage,10785.83
+2026-03,MAC-01,DevOps,Compute,42496.5
+2026-03,MAC-01,DevOps,Networking,7176.7
+2026-03,MAC-01,DevOps,Data Services,14292.86
+2026-03,MAC-01,Platform,Networking,9022.87
+2026-03,MAC-01,Platform,Data Services,13546.82
+2026-03,MAC-01,Platform,Storage,10034.6
+2026-03,MAC-01,Platform,Compute,39108.1
+2026-03,MAC-02,Analytics,Data Services,29963.63
+2026-03,MAC-02,Analytics,Compute,30173.43
+2026-03,MAC-02,Analytics,Networking,5723.09
+2026-03,MAC-02,Analytics,Storage,19655.92
+2026-03,MAC-02,DataEngineering,Networking,6449.27
+2026-03,MAC-02,DataEngineering,Data Services,32713.69
+2026-03,MAC-02,DataEngineering,Storage,21595.7
+2026-03,MAC-02,DataEngineering,Compute,31590.31
+2026-03,MAC-03,Frontend,Data Services,7028.94
+2026-03,MAC-03,Frontend,Storage,5354.57
+2026-03,MAC-03,Frontend,Networking,3540.39
+2026-03,MAC-03,Frontend,Compute,17715.16
+2026-03,MAC-03,Product,Data Services,10731.66
+2026-03,MAC-03,Product,Storage,6964.2
+2026-03,MAC-03,Product,Networking,4176.74
+2026-03,MAC-03,Product,Compute,20735.11
+2026-03,MAC-04,Backend,Compute,33744.78
+2026-03,MAC-04,Backend,Storage,12586.0
+2026-03,MAC-04,Backend,Data Services,17646.69
+2026-03,MAC-04,Backend,Networking,7779.29
+2026-03,MAC-04,QA,Compute,14447.47
+2026-03,MAC-04,QA,Storage,6568.68
+2026-03,MAC-04,QA,Data Services,8632.64
+2026-03,MAC-04,QA,Networking,3164.36
+2026-03,MAC-05,Compliance,Data Services,10742.35
+2026-03,MAC-05,Compliance,Networking,5318.47
+2026-03,MAC-05,Compliance,Storage,7685.89
+2026-03,MAC-05,Compliance,Compute,12234.94
+2026-03,MAC-05,Security,Data Services,12256.34
+2026-03,MAC-05,Security,Compute,25037.33
+2026-03,MAC-05,Security,Networking,10604.99
+2026-03,MAC-05,Security,Storage,9041.33
+2026-03,MAC-06,CloudOps,Compute,46296.2
+2026-03,MAC-06,CloudOps,Storage,13776.57
+2026-03,MAC-06,CloudOps,Networking,11430.98
+2026-03,MAC-06,CloudOps,Data Services,14129.94
+2026-03,MAC-06,Infrastructure,Compute,49751.09
+2026-03,MAC-06,Infrastructure,Storage,14379.07
+2026-03,MAC-06,Infrastructure,Networking,12721.25
+2026-03,MAC-06,Infrastructure,Data Services,15235.83
+2026-03,MAC-07,ML,Data Services,24173.19
+2026-03,MAC-07,ML,Compute,62711.28
+2026-03,MAC-07,ML,Networking,6965.48
+2026-03,MAC-07,ML,Storage,18096.27
+2026-03,MAC-07,Research,Networking,6409.61
+2026-03,MAC-07,Research,Storage,16509.17
+2026-03,MAC-07,Research,Data Services,23262.46
+2026-03,MAC-07,Research,Compute,28942.02
+2026-03,MAC-08,Finance,Networking,3591.23
+2026-03,MAC-08,Finance,Data Services,16040.8
+2026-03,MAC-08,Finance,Storage,7062.4
+2026-03,MAC-08,Finance,Compute,10769.14
+2026-03,MAC-08,Operations,Networking,4748.75
+2026-03,MAC-08,Operations,Compute,15911.0
+2026-03,MAC-08,Operations,Storage,10465.79
+2026-03,MAC-08,Operations,Data Services,13368.56

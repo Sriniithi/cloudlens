@@ -1,0 +1,19 @@
+pattern,mac_id,estimated_savings_inr,candidate_count,recommendation_summary
+right-sizing,MAC-07,96745.2,5,"Here are the recommendations for each Azure Compute resource:
+
+1. MAC-07, ML - Downsize from Microsoft.Compute/virtualMachines to Microsoft.ContainerService/managedClusters
+This downsizing is recommended because it allows us to reduce the number of VMs while maintaining some level of performance and scalability, which can be beneficial for specific workloads that are not currently utilized.
+
+2. MAC-07, ML - Right-size to 3 standard VS-2 instances each
+This recommendation is made because it will "
+idle-cleanup,MAC-07,15033.41,5,"Here are the recommendations:
+
+1. **MAC-07: Research**
+This Azure resource appears idle because it was created over 30 days ago and has been running for an extended period with very low activity, suggesting that resources may not be being used or utilized effectively in this team. Further investigation is needed to determine if there are any ongoing projects or tasks that require the resources.
+
+Estimated monthly savings: Deleting MAC-07 would eliminate unnecessary costs of $9646.51 over 90 days"
+reservation,MAC-07,1177066.51,5,"Here are the recommendations for Psiog Digital's Azure Compute resources:
+
+1. MAC-07, ML: This is an ideal candidate for Reserved Instance pricing due to its stable costs over the past 30+ days, which suggests that it will continue to generate significant revenue during this period.
+
+2. Estimated annual savings with 1-year Reserved Instance: Based on the 40% discount, MAC-07 can expect to save approximately $34,111 per year, resulting in a total annual cost of around $84,499 compared to pay-as-y"

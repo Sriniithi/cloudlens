@@ -1,0 +1,17 @@
+mac_id,team,attribution_confidence,records,total_cost_inr
+MAC-07,ML,high,360,298212.88
+MAC-02,DataEngineering,high,360,252527.57
+MAC-06,Infrastructure,high,360,252097.13
+MAC-02,Analytics,high,360,234992.67
+MAC-06,CloudOps,high,360,234969.57
+MAC-01,DevOps,high,360,205669.77
+MAC-07,Research,high,360,203797.05
+MAC-04,Backend,high,360,197932.49
+MAC-01,Platform,high,360,197362.06
+MAC-05,Security,high,360,157687.89
+MAC-08,Operations,high,360,122691.03
+MAC-03,Product,high,360,118280.97
+MAC-08,Finance,high,360,102890.81
+MAC-05,Compliance,high,360,99756.51
+MAC-03,Frontend,high,360,92482.45
+MAC-04,QA,high,360,90217.31

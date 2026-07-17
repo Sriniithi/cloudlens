@@ -1,0 +1,4 @@
+pattern,mac_id,ai_recommendation,estimated_savings_inr,candidate_count
+right-sizing,MAC-07,Ollama error: No module named 'ollama',96745.2,5
+idle-cleanup,MAC-07,Ollama error: No module named 'ollama',15033.41,5
+reservation,MAC-07,Ollama error: No module named 'ollama',1177066.51,5

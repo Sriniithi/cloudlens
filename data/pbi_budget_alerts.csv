@@ -1,0 +1,17 @@
+mac_id,team,alert_type,severity,message,projected_spend_inr,budget_inr,pct_over_budget
+MAC-04,Backend,Budget Breach Projected,CRITICAL,"Backend (MAC: MAC-04) is projected to spend ₹72,918 this month against a budget of ₹38,000 (191.9%). Breach expected in 16 days.",72917.82,38000.0,91.9
+MAC-01,Platform,Budget Breach Projected,CRITICAL,"Platform (MAC: MAC-01) is projected to spend ₹73,312 this month against a budget of ₹40,000 (183.3%). Breach expected in 17 days.",73311.53,40000.0,83.3
+MAC-02,Analytics,Budget Breach Projected,CRITICAL,"Analytics (MAC: MAC-02) is projected to spend ₹86,737 this month against a budget of ₹50,000 (173.5%). Breach expected in 18 days.",86737.38,50000.0,73.5
+MAC-07,ML,Budget Breach Projected,CRITICAL,"ML (MAC: MAC-07) is projected to spend ₹112,702 this month against a budget of ₹65,000 (173.4%). Breach expected in 18 days.",112701.61,65000.0,73.4
+MAC-02,DataEngineering,Budget Breach Projected,CRITICAL,"DataEngineering (MAC: MAC-02) is projected to spend ₹95,329 this month against a budget of ₹55,000 (173.3%). Breach expected in 18 days.",95328.78,55000.0,73.3
+MAC-01,DevOps,Budget Breach Projected,CRITICAL,"DevOps (MAC: MAC-01) is projected to spend ₹76,510 this month against a budget of ₹45,000 (170.0%). Breach expected in 18 days.",76510.49,45000.0,70.0
+MAC-04,QA,Budget Breach Projected,CRITICAL,"QA (MAC: MAC-04) is projected to spend ₹33,412 this month against a budget of ₹20,000 (167.1%). Breach expected in 19 days.",33411.82,20000.0,67.1
+MAC-05,Security,Budget Breach Projected,CRITICAL,"Security (MAC: MAC-05) is projected to spend ₹58,206 this month against a budget of ₹35,000 (166.3%). Breach expected in 19 days.",58205.79,35000.0,66.3
+MAC-06,CloudOps,Budget Breach Projected,CRITICAL,"CloudOps (MAC: MAC-06) is projected to spend ₹88,636 this month against a budget of ₹55,000 (161.2%). Breach expected in 19 days.",88635.77,55000.0,61.2
+MAC-07,Research,Budget Breach Projected,CRITICAL,"Research (MAC: MAC-07) is projected to spend ₹76,939 this month against a budget of ₹48,000 (160.3%). Breach expected in 19 days.",76939.33,48000.0,60.3
+MAC-06,Infrastructure,Budget Breach Projected,CRITICAL,"Infrastructure (MAC: MAC-06) is projected to spend ₹94,150 this month against a budget of ₹60,000 (156.9%). Breach expected in 20 days.",94150.31,60000.0,56.9
+MAC-08,Finance,Budget Breach Projected,CRITICAL,"Finance (MAC: MAC-08) is projected to spend ₹38,316 this month against a budget of ₹25,000 (153.3%). Breach expected in 20 days.",38315.72,25000.0,53.3
+MAC-08,Operations,Budget Breach Projected,CRITICAL,"Operations (MAC: MAC-08) is projected to spend ₹45,104 this month against a budget of ₹30,000 (150.3%). Breach expected in 21 days.",45104.42,30000.0,50.3
+MAC-03,Product,Budget Breach Projected,CRITICAL,"Product (MAC: MAC-03) is projected to spend ₹43,068 this month against a budget of ₹30,000 (143.6%). Breach expected in 22 days.",43068.46,30000.0,43.6
+MAC-03,Frontend,Budget Breach Projected,CRITICAL,"Frontend (MAC: MAC-03) is projected to spend ₹34,342 this month against a budget of ₹25,000 (137.4%). Breach expected in 22 days.",34341.94,25000.0,37.4
+MAC-05,Compliance,Budget Breach Projected,CRITICAL,"Compliance (MAC: MAC-05) is projected to spend ₹36,289 this month against a budget of ₹28,000 (129.6%). Breach expected in 24 days.",36289.31,28000.0,29.6

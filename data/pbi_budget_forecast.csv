@@ -1,0 +1,17 @@
+mac_id,team,monthly_budget_inr,projected_bau_inr,projected_optimized_inr,bau_vs_budget_pct,optimized_vs_budget_pct,bau_breach,optimized_breach,breach_day_bau,spend_trend,daily_slope_inr
+MAC-04,Backend,38000.0,72917.82,54688.37,191.9,143.9,true,true,16,Stable,3.86
+MAC-01,Platform,40000.0,73311.53,54983.65,183.3,137.5,true,true,17,Stable,4.18
+MAC-02,Analytics,50000.0,86737.38,65053.03,173.5,130.1,true,true,18,Stable,4.67
+MAC-07,ML,65000.0,112701.61,84526.21,173.4,130.0,true,true,18,Stable,7.39
+MAC-02,DataEngineering,55000.0,95328.78,71496.59,173.3,130.0,true,true,18,Stable,6.2
+MAC-01,DevOps,45000.0,76510.49,57382.86,170.0,127.5,true,true,18,Stable,4.42
+MAC-04,QA,20000.0,33411.82,25058.87,167.1,125.3,true,true,19,Stable,1.86
+MAC-05,Security,35000.0,58205.79,43654.34,166.3,124.7,true,true,19,Stable,3.14
+MAC-06,CloudOps,55000.0,88635.77,66476.83,161.2,120.9,true,true,19,Stable,5.73
+MAC-07,Research,48000.0,76939.33,57704.49,160.3,120.2,true,true,19,Stable,5.0
+MAC-06,Infrastructure,60000.0,94150.31,70612.73,156.9,117.7,true,true,20,Stable,5.62
+MAC-08,Finance,25000.0,38315.72,28736.79,153.3,114.9,true,true,20,Stable,2.23
+MAC-08,Operations,30000.0,45104.42,33828.32,150.3,112.8,true,true,21,Stable,2.34
+MAC-03,Product,30000.0,43068.46,32301.35,143.6,107.7,true,true,22,Stable,2.02
+MAC-03,Frontend,25000.0,34341.94,25756.45,137.4,103.0,true,true,22,Stable,1.95
+MAC-05,Compliance,28000.0,36289.31,27216.99,129.6,97.2,true,false,24,Stable,1.69

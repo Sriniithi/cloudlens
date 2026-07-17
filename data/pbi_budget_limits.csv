@@ -1,0 +1,17 @@
+mac_id,team,monthly_budget_inr
+MAC-01,DevOps,45000.0
+MAC-01,Platform,40000.0
+MAC-02,DataEngineering,55000.0
+MAC-02,Analytics,50000.0
+MAC-03,Product,30000.0
+MAC-03,Frontend,25000.0
+MAC-04,Backend,38000.0
+MAC-04,QA,20000.0
+MAC-05,Security,35000.0
+MAC-05,Compliance,28000.0
+MAC-06,Infrastructure,60000.0
+MAC-06,CloudOps,55000.0
+MAC-07,ML,65000.0
+MAC-07,Research,48000.0
+MAC-08,Finance,25000.0
+MAC-08,Operations,30000.0
