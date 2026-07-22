@@ -38,17 +38,6 @@ def _call_gemini(prompt: str) -> str:
         return f"Gemini error: {str(e)}"
 
 
-# def _call_ollama(prompt: str) -> str:
-#     try:
-#         import ollama
-#         response = ollama.chat(
-#             model="llama3.2:1b",
-#             messages=[{"role": "user", "content": prompt}]
-#         )
-#         return response['message']['content']
-#     except Exception as e:
-#         return f"Ollama error: {str(e)}"
-
 def _call_ollama(prompt: str) -> str:
     try:
         import ollama
@@ -57,14 +46,6 @@ def _call_ollama(prompt: str) -> str:
             messages=[{"role": "user", "content": prompt}]
         )
         return response['message']['content']
-    except ModuleNotFoundError:
-        return (
-            "Ollama is not installed in this environment, so the local "
-            "AI engine is unavailable. Install it with `pip install ollama` "
-            "and pull a model (e.g. `ollama pull llama3.2:1b`) to enable "
-            "AI-generated narratives, or switch mode='gemini' to use the "
-            "Gemini API instead."
-        )
     except Exception as e:
         return f"Ollama error: {str(e)}"
 

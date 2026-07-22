@@ -249,35 +249,7 @@ Return ONLY valid DuckDB SQL. No explanation. No markdown.
             return sql
     return None
 
-# def generate_answer(question, sql, result_df):
-#     prompt = f"""
-# You are CloudLens AI, a FinOps assistant for Psiog Digital.
-# You help engineering and finance teams understand Azure cloud costs
-# across 8 MACs and 16 teams.
-
-# The user asked: "{question}"
-
-# The SQL query returned this data:
-# {result_df.to_string(index=False) if len(result_df) <= 20
-#  else result_df.head(10).to_string(index=False) + f"\n... and {len(result_df)-10} more rows"}
-
-# Write a clear, concise, business-friendly answer in 2-3 sentences.
-# Include specific numbers from the data.
-# If costs are high, suggest looking at the AI recommendations.
-# Do not mention SQL or technical details.
-# """
-#     return get_ai_response(prompt, mode="ollama")
-
 def generate_answer(question, sql, result_df):
-    if len(result_df) <= 20:
-        data_preview = result_df.to_string(index=False)
-    else:
-        extra_rows = len(result_df) - 10
-        data_preview = (
-            result_df.head(10).to_string(index=False)
-            + f"\n... and {extra_rows} more rows"
-        )
-
     prompt = f"""
 You are CloudLens AI, a FinOps assistant for Psiog Digital.
 You help engineering and finance teams understand Azure cloud costs
@@ -286,7 +258,8 @@ across 8 MACs and 16 teams.
 The user asked: "{question}"
 
 The SQL query returned this data:
-{data_preview}
+{result_df.to_string(index=False) if len(result_df) <= 20
+ else result_df.head(10).to_string(index=False) + f"\n... and {len(result_df)-10} more rows"}
 
 Write a clear, concise, business-friendly answer in 2-3 sentences.
 Include specific numbers from the data.
