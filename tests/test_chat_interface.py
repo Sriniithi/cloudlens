@@ -67,15 +67,36 @@ def test_budget_forecast_has_two_scenario_columns():
 
 
 def test_question_to_sql_import():
-    from chat_interface.app import question_to_sql
+    from chat_interface.utils import question_to_sql
     assert callable(question_to_sql)
 
 
 def test_run_query_import():
-    from chat_interface.app import run_query
+    from chat_interface.utils import run_query
     result, error = run_query(
         "SELECT COUNT(*) as cnt FROM attributed_costs"
     )
     assert result is not None
     assert error is None
     assert result['cnt'].iloc[0] > 0
+
+
+def test_question_to_sql_over_budget():
+    from chat_interface.utils import question_to_sql
+    sql = question_to_sql("show me teams that are over budget")
+    assert sql is not None
+    assert "budget_forecast" in sql.lower()
+
+
+def test_question_to_sql_highest_spend():
+    from chat_interface.utils import question_to_sql
+    sql = question_to_sql("which team spent the most")
+    assert sql is not None
+    assert "team_daily_costs" in sql.lower()
+
+
+def test_question_to_sql_anomalies():
+    from chat_interface.utils import question_to_sql
+    sql = question_to_sql("show me anomalies and spikes")
+    assert sql is not None
+    assert "anomaly_detections" in sql.lower()
