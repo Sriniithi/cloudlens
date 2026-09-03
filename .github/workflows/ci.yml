@@ -71,7 +71,6 @@ jobs:
             --cov=processing \
             --cov=ai_engine \
             --cov=chat_interface/utils.py \
-            --cov-omit=chat_interface/app.py \
             --cov-report=term-missing
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
