@@ -48,6 +48,16 @@ jobs:
         run: python processing/budget_forecast.py
       - name: Run anomaly detection
         run: python ai_engine/anomaly_engine.py
+      - name: Generate scale dataset
+        run: python ingestion/generate_scale_data.py
+      - name: Run scale performance tests
+        run: pytest tests/test_scale_performance.py -v -s --tb=short
+      - name: Run Locust benchmarks
+        run: python tests/locustfile.py
+      - name: Run all tests with coverage
+        run: |
+          pip install pytest-cov
+          pytest tests/ -v --tb=short --cov=ingestion --cov=processing --cov=ai_engine --cov=chat_interface --cov-report=term-missing
       - name: Run all tests
         run: pytest tests/ -v --tb=short
       - name: Run all tests
