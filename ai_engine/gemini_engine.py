@@ -150,8 +150,8 @@ def get_idle_resource_recommendations(db_path: str = "data/cloudlens.db",
         FROM attributed_costs
         WHERE category IN ('Storage', 'Networking')
         GROUP BY mac_id, attributed_team, resource_type, resource_group
-        HAVING AVG(cost_inr) < 200
-        AND COUNT(*) > 30
+        HAVING AVG(cost_inr) < 500
+        AND COUNT(*) > 5
         ORDER BY total_cost_90days DESC
         LIMIT 5
     """).df()
@@ -225,8 +225,8 @@ def get_reservation_recommendations(db_path: str = "data/cloudlens.db",
         FROM attributed_costs
         WHERE category = 'Compute'
         GROUP BY mac_id, attributed_team, resource_type, resource_group
-        HAVING COUNT(*) >= 30
-        AND AVG(cost_inr) > 500
+        HAVING COUNT(*) >= 5
+        AND AVG(cost_inr) > 100
         ORDER BY projected_annual_cost DESC
         LIMIT 5
     """).df()

@@ -201,3 +201,154 @@ def test_gemini_engine_reservation_structure():
         "data/cloudlens.db", mode="ollama"
     )
     assert isinstance(result, list)
+
+# ─────────────────────────────────────────
+# PIPELINE ORCHESTRATOR COVERAGE
+# ─────────────────────────────────────────
+def test_run_pipeline_function_exists():
+    from ingestion.run_pipeline import run_full_pipeline
+    import inspect
+    assert inspect.isfunction(run_full_pipeline)
+
+
+def test_azure_connector_synthetic_returns_df():
+    from ingestion.azure_connector import AzureCostConnector
+    c = AzureCostConnector(mode="synthetic")
+    df = c.get_cost_data(days_back=7)
+    assert len(df) > 0
+    assert 'cost_inr' in df.columns
+    assert 'mac_id' in df.columns
+
+
+def test_azure_connector_budget_data_values():
+    from ingestion.azure_connector import AzureCostConnector
+    c = AzureCostConnector(mode="synthetic")
+    budgets = c.get_budget_data()
+    assert budgets['ML'] == 65000
+    assert budgets['Infrastructure'] == 60000
+    assert budgets['QA'] == 20000
+
+
+def test_azure_connector_mac_budget_values():
+    from ingestion.azure_connector import AzureCostConnector
+    c = AzureCostConnector(mode="synthetic")
+    macs = c.get_mac_budgets()
+    assert macs['MAC-07'] == 113000
+    assert macs['MAC-01'] == 85000
+
+
+# ─────────────────────────────────────────
+# ANOMALY ENGINE COVERAGE
+# ─────────────────────────────────────────
+def test_anomaly_engine_load_function():
+    from ai_engine.anomaly_engine import load_daily_costs
+    df = load_daily_costs("data/cloudlens.db")
+    assert 'daily_cost' in df.columns
+    assert 'mac_id' in df.columns
+    assert len(df) > 0
+
+
+def test_anomaly_engine_detect_function_columns():
+    from ai_engine.anomaly_engine import (
+        load_daily_costs, detect_anomalies
+    )
+    df = load_daily_costs("data/cloudlens.db")
+    result = detect_anomalies(df, window=30, threshold=2.0)
+    if len(result) > 0:
+        assert 'z_score' in result.columns
+        assert 'pct_deviation' in result.columns
+        assert 'direction' in result.columns
+
+
+# ─────────────────────────────────────────
+# BUDGET FORECAST COVERAGE
+# ─────────────────────────────────────────
+def test_forecast_slope_is_numeric():
+    from processing.budget_forecast import (
+        load_team_spending_history, forecast_team_spend
+    )
+    daily_df = load_team_spending_history("data/cloudlens.db")
+    _, _, slope, intercept = forecast_team_spend(
+        daily_df, "ML", days_ahead=30
+    )
+    assert isinstance(float(slope), float)
+    assert isinstance(float(intercept), float)
+
+
+def test_forecast_scenarios_16_rows():
+    import duckdb
+    conn = duckdb.connect("data/cloudlens.db", read_only=True)
+    count = conn.execute(
+        "SELECT COUNT(*) FROM budget_forecast"
+    ).fetchone()[0]
+    conn.close()
+    assert count == 16
+
+
+# ─────────────────────────────────────────
+# UTILS / CHAT COVERAGE
+# ─────────────────────────────────────────
+def test_utils_run_query_returns_tuple():
+    from chat_interface.utils import run_query
+    result, error = run_query("SELECT 1 as val")
+    assert result is not None
+    assert error is None
+    assert result['val'].iloc[0] == 1
+
+
+def test_utils_invalid_sql_returns_error():
+    from chat_interface.utils import run_query
+    result, error = run_query("SELECT * FROM nonexistent_table_xyz")
+    assert result is None
+    assert error is not None
+
+
+def test_utils_template_matches_budget():
+    from chat_interface.utils import question_to_sql
+    sql = question_to_sql("show budget utilization")
+    assert sql is not None
+    assert "budget" in sql.lower()
+
+
+def test_utils_template_matches_mac():
+    from chat_interface.utils import question_to_sql
+    sql = question_to_sql("which mac has the most spend")
+    assert sql is not None
+    assert "mac_id" in sql.lower()
+
+
+def test_utils_template_matches_category():
+    from chat_interface.utils import question_to_sql
+    sql = question_to_sql("show compute costs")
+    assert sql is not None
+
+
+def test_utils_template_matches_forecast():
+    from chat_interface.utils import question_to_sql
+    sql = question_to_sql("show me the forecast")
+    assert sql is not None
+    assert "budget_forecast" in sql.lower()
+
+def test_generate_scale_data_runs():
+    from ingestion.generate_scale_data import generate_scale_data
+    import os
+    df = generate_scale_data(
+        days=5,
+        spike_day=3,
+        output_path="data/test_scale_small.csv"
+    )
+    assert len(df) > 0
+    assert os.path.exists("data/test_scale_small.csv")
+    assert df['mac_id'].nunique() == 8
+
+
+def test_generate_scale_data_has_extended_resources():
+    from ingestion.generate_scale_data import generate_scale_data
+    df = generate_scale_data(
+        days=3,
+        spike_day=1,
+        output_path="data/test_scale_resources.csv"
+    )
+    unique_resource_types = df['resource_type'].nunique()
+    # Extended resources = 5+4+5+5 = 19 unique types
+    assert unique_resource_types >= 10

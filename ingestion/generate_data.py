@@ -40,18 +40,29 @@ RESOURCES = {
     "Compute": [
         ("Microsoft.Compute/virtualMachines",             "Virtual Machines"),
         ("Microsoft.ContainerService/managedClusters",    "AKS Clusters"),
+        ("Microsoft.Compute/virtualMachineScaleSets",     "VM Scale Sets"),
+        ("Microsoft.Compute/disks",                       "Managed Disks"),
+        ("Microsoft.Compute/snapshots",                   "Disk Snapshots"),
     ],
     "Storage": [
         ("Microsoft.Storage/storageAccounts",             "Blob Storage"),
         ("Microsoft.Storage/storageAccounts/fileServices","File Storage"),
+        ("Microsoft.Storage/storageAccounts/tableServices","Table Storage"),
+        ("Microsoft.Storage/storageAccounts/queueServices","Queue Storage"),
     ],
     "Networking": [
         ("Microsoft.Network/loadBalancers",               "Load Balancers"),
         ("Microsoft.Network/virtualNetworks",             "Virtual Networks"),
+        ("Microsoft.Network/publicIPAddresses",           "Public IPs"),
+        ("Microsoft.Network/applicationGateways",         "App Gateways"),
+        ("Microsoft.Network/expressRouteCircuits",        "ExpressRoute"),
     ],
     "Data Services": [
         ("Microsoft.Sql/servers/databases",               "SQL Database"),
         ("Microsoft.DocumentDB/databaseAccounts",         "Cosmos DB"),
+        ("Microsoft.DBforPostgreSQL/servers",             "PostgreSQL"),
+        ("Microsoft.Synapse/workspaces",                  "Synapse Analytics"),
+        ("Microsoft.DataFactory/factories",               "Data Factory"),
     ],
 }
 
