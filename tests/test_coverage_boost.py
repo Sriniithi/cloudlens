@@ -328,3 +328,27 @@ def test_utils_template_matches_forecast():
     sql = question_to_sql("show me the forecast")
     assert sql is not None
     assert "budget_forecast" in sql.lower()
+
+def test_generate_scale_data_runs():
+    from ingestion.generate_scale_data import generate_scale_data
+    import os
+    df = generate_scale_data(
+        days=5,
+        spike_day=3,
+        output_path="data/test_scale_small.csv"
+    )
+    assert len(df) > 0
+    assert os.path.exists("data/test_scale_small.csv")
+    assert df['mac_id'].nunique() == 8
+
+
+def test_generate_scale_data_has_extended_resources():
+    from ingestion.generate_scale_data import generate_scale_data
+    df = generate_scale_data(
+        days=3,
+        spike_day=1,
+        output_path="data/test_scale_resources.csv"
+    )
+    unique_resource_types = df['resource_type'].nunique()
+    # Extended resources = 5+4+5+5 = 19 unique types
+    assert unique_resource_types >= 10
